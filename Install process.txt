@@ -1,0 +1,14 @@
+# Run
+
+	python -m venv venv
+
+	.\venv\Scripts\activate
+
+# install needed libraries
+
+	pip install opencv-python mediapipe numpy matplotlib argparse
+
+
+#Run the program 
+
+	python src/analyzer.py --video examples/sample_jump.mp4 --height 1.85
